@@ -1,1 +1,17 @@
 /* You can add global styles to this file, and also import other style files */
+*{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.btn-delete{
+    font-weight: bold;
+    border: none;
+    margin-left: 10px;
+    border-radius: 50%;
+    color: #fff;
+    padding: 5px 8.5px;
+    background-color: crimson;
+}
+
+.is-complete{
+    text-decoration: line-through;
+}
