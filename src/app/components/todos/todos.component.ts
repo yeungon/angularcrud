@@ -33,6 +33,11 @@ export class TodosComponent implements OnInit {
 
     console.log("Đã catched");
 
+   if(todo.title.length <= 0){
+     alert("Please add the task first!");
+     return;
+   }
+
     this.todoService.addTodo(todo).subscribe(todo =>{
 
       console.log("Đã subscribe" + todo);

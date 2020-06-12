@@ -27,7 +27,7 @@ export class AppComponent {
   }
 
   handleClick(e){
-  	console.log(e)
+  	alert("hello world")
   }
 
   ngOnInit() {
