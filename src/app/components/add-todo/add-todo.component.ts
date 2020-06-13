@@ -21,7 +21,7 @@ export class AddTodoComponent implements OnInit {
       completed: false
     }
 
-    console.log("onSubmit"  + this.title);
+    console.table("onSubmit: "  + this.title);
 
     this.addTodo.emit(todo)
   }   
